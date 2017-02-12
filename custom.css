@@ -1,0 +1,30 @@
+
+.signed {
+    text-align: right;
+}
+
+.dateline {
+    text-align: left;
+    margin-left: 3.58em;
+    text-indent: -2em;
+}
+
+/* Approximate stacked fractions */
+
+.fraction, .fraction .top, .fraction .bottom {
+    padding: 0 1px;
+    font-size: 7pt;
+    line-height: 8pt;
+    font-weight: bold;
+}
+
+.fraction {
+    display: inline-block;
+    text-align: center;
+}
+
+.fraction .bottom {
+    border-top: 1px solid #000;
+    display: block;
+}
+
